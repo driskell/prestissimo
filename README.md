@@ -21,14 +21,14 @@ This is a [composer](https://getcomposer.org) plugin that downloads packages in 
 ## Install
 
 ```bash
-$ composer global require hirak/prestissimo
+$ composer global require driskell/prestissimo
 ```
 
 
 ## Uninstall
 
 ```bash
-$ composer global remove hirak/prestissimo
+$ composer global remove driskell/prestissimo
 ```
 
 
