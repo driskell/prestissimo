@@ -1,5 +1,5 @@
 {
-    "name": "hirak/prestissimo",
+    "name": "driskell/prestissimo",
     "description": "composer parallel install plugin",
     "type": "composer-plugin",
     "keywords": ["parallel", "install", "speedup"],
@@ -7,9 +7,16 @@
         {
             "name": "Hiraku NAKANO",
             "email": "hiraku@tojiru.net"
+        },
+        {
+            "name": "Jason Woods",
+            "email": "devel@jasonwoods.me.uk"
         }
     ],
     "license": "MIT",
+    "replace": {
+        "hirak/prestissimo": "*"
+    },
     "require": {
         "php": "^5.3.2 || ^7.0",
         "ext-curl": "*",
